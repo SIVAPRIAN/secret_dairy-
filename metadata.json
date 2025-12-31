@@ -1,0 +1,6 @@
+
+{
+  "name": "CipherVault Diary",
+  "description": "A military-grade private diary utilizing client-side AES-GCM encryption and PBKDF2 key derivation for maximum security and privacy.",
+  "requestFramePermissions": []
+}
