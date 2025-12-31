@@ -4,19 +4,31 @@
 
 # 🔐 Secure System Locker
 
-Secure System Locker is a **client-side encrypted vault and diary application** built using **React, TypeScript, and Vite**.  
-The project focuses on **local encryption, offline-first security**, and protected access to sensitive user data.
+Secure System Locker is a **secure vault and diary application** developed using **React, TypeScript, and Vite**.  
+The project is designed with a strong focus on **client-side security**, **local encryption**, and **privacy-first data handling**.
+
+All sensitive content is processed and protected locally, ensuring user data is never exposed unnecessarily.
+
+---
+
+## 🎯 Project Objectives
+
+- Implement secure storage using encryption techniques
+- Design a protected vault-style application
+- Practice cybersecurity-aware frontend development
+- Build an offline-first secure system
+- Follow modular and scalable React architecture
 
 ---
 
 ## ✨ Features
 
-- 🔐 Client-side encryption (data encrypted locally)
-- 📓 Secure diary / vault system
-- 📴 Core functionality works **offline**
-- 🧠 Optional AI integration (Gemini API)
-- 🧩 Modular and clean React architecture
-- ⚡ Fast development using Vite
+- 🔐 Client-side encryption for sensitive data  
+- 📓 Secure diary / vault for private entries  
+- 📴 Works offline for core functionality  
+- 🔑 Password-based access protection  
+- 🧩 Clean and modular component structure  
+- ⚡ Fast and lightweight using Vite  
 
 ---
 
@@ -26,11 +38,11 @@ The project focuses on **local encryption, offline-first security**, and protect
 - TypeScript
 - Vite
 - Client-side Cryptography
-- Optional Google Gemini API
+- HTML & CSS
 
 ---
 
-## 🚀 Run Locally
+## 🚀 Run the Project Locally
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -38,7 +50,7 @@ The project focuses on **local encryption, offline-first security**, and protect
 
 ---
 
-### Installation
+### Installation Steps
 
 ```bash
 git clone https://github.com/SIVAPRIAN/SECURE_SYSTEM_LOCKER.git
