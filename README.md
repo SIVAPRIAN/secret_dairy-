@@ -4,31 +4,44 @@
 
 # 🔐 Secure System Locker
 
-Secure System Locker is a **secure vault and diary application** developed using **React, TypeScript, and Vite**.  
-The project is designed with a strong focus on **client-side security**, **local encryption**, and **privacy-first data handling**.
+**Secure System Locker** is a **privacy-first, offline secure vault and diary application** built using **React, TypeScript, and Vite**.  
+The project focuses on **client-side encryption**, **zero-trust design**, and **local-only data protection**.
 
-All sensitive content is processed and protected locally, ensuring user data is never exposed unnecessarily.
+All sensitive content is encrypted **inside the browser itself**.  
+There is **no backend**, **no cloud storage**, and **no external APIs** — ensuring maximum user privacy.
 
 ---
 
 ## 🎯 Project Objectives
 
-- Implement secure storage using encryption techniques
-- Design a protected vault-style application
-- Practice cybersecurity-aware frontend development
-- Build an offline-first secure system
-- Follow modular and scalable React architecture
+- Implement strong client-side encryption using modern cryptography
+- Design a vault-style secure diary system
+- Practice privacy-aware and security-focused frontend development
+- Build a fully offline-first secure application
+- Follow clean, modular, and scalable React architecture
 
 ---
 
 ## ✨ Features
 
-- 🔐 Client-side encryption for sensitive data  
-- 📓 Secure diary / vault for private entries  
-- 📴 Works offline for core functionality  
-- 🔑 Password-based access protection  
-- 🧩 Clean and modular component structure  
-- ⚡ Fast and lightweight using Vite  
+- 🔐 Client-side encryption (AES-256-GCM)
+- 🔑 Password-based vault access
+- 🧠 Local privacy & security analysis (offline)
+- 📓 Encrypted diary / secure vault entries
+- 📴 Works fully offline
+- ❌ No backend, no APIs, no cloud
+- 🧩 Clean and modular component structure
+- ⚡ Fast and lightweight using Vite
+
+---
+
+## 🛡️ Security Design Overview
+
+- Encryption and decryption occur entirely in the browser
+- Master password is used to derive an encryption key using PBKDF2
+- Diary entries are stored only in encrypted form
+- Plaintext data is never persisted
+- Passwords and keys are never stored
 
 ---
 
@@ -37,8 +50,25 @@ All sensitive content is processed and protected locally, ensuring user data is 
 - React
 - TypeScript
 - Vite
+- Web Crypto API
+- Tailwind CSS
 - Client-side Cryptography
-- HTML & CSS
+
+---
+
+## 📂 Project Structure
+
+components/
+├─ VaultSetup.tsx
+├─ VaultLock.tsx
+├─ DiaryEditor.tsx
+
+services/
+├─ cryptoService.ts
+├─ geminiService.ts (offline security analyzer)
+
+App.tsx
+types.ts
 
 ---
 
@@ -56,3 +86,5 @@ All sensitive content is processed and protected locally, ensuring user data is 
 git clone https://github.com/SIVAPRIAN/SECURE_SYSTEM_LOCKER.git
 cd SECURE_SYSTEM_LOCKER
 npm install
+npm run dev
+

@@ -1,5 +1,25 @@
+# ===============================
+# Dependencies
+# ===============================
+node_modules/
+
+# ===============================
+# Build output
+# ===============================
+dist/
+dist-ssr/
+
+# ===============================
+# Environment files (DO NOT COMMIT)
+# ===============================
+.env
+.env.*
+*.local
+
+# ===============================
 # Logs
-logs
+# ===============================
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,18 +27,45 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# ===============================
+# Runtime data
+# ===============================
+pids
+*.pid
+*.seed
+*.pid.lock
 
-# Editor directories and files
-.vscode/*
+# ===============================
+# Editor & OS files
+# ===============================
+.vscode/
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
+Thumbs.db
+
+# ===============================
+# Visual Studio / Windows
+# ===============================
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+
+# ===============================
+# Temporary & backup files
+# ===============================
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# ===============================
+# Test / Coverage
+# ===============================
+coverage/
+
+# ===============================
+# Optional: Cache
+# ===============================
+.cache/
