@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="1200" height="475" alt="Secure System Locker Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1151" height="814" alt="Screenshot 2025-12-31 165411" src="https://github.com/user-attachments/assets/66e65af3-3ec2-472e-869d-58bb83d1b1ad" />
 </div>
 
 # 🔐 Secure System Locker
