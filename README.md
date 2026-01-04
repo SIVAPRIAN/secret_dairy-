@@ -2,6 +2,12 @@
   <img width="1151" height="814" alt="Screenshot 2025-12-31 165411" src="https://github.com/user-attachments/assets/66e65af3-3ec2-472e-869d-58bb83d1b1ad" />
 </div>
 
+## 🌐 Live Application
+
+🔗 **Personal Diary App**:  
+https://personaldiaryz.netlify.app/
+
+
 # 🔐 Secure System Locker
 
 **Secure System Locker** is a **privacy-first, offline secure vault and diary application** built using **React, TypeScript, and Vite**.  
